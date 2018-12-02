@@ -1,0 +1,191 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Garbrant Consulting</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/ico" href="assets\images\logo-icon.ico"> 
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/ScrollMagic.min.js"></script>
+
+    <script src="assets/js/anchor.js"></script>
+    <script src="assets/js/headerlines.js"></script>
+    <script src="assets/js/static-header.js"></script>
+</head>
+<body>
+
+    <!--Header-->
+    <header id="gt_home">
+        <section>
+            <ul>
+                <li>
+                    <a class="fa phone" href="tel:012-345 67 89"><span>012-345 67 89</span></a>
+                    <a class="fa mail" href="mailto:mail@example.com"><span>ulrika@garbrantconsulting.se</span></a>
+                    <div id="a">
+                        <a class="fa lang" href="en.html"></a>
+                        <a class="fa dribbble" href=""></a>
+                        <a class="fa behance" href=""></a>
+                        <a class="fa google" href=""></a>
+                        <a class="fa linkedin" href="https://se.linkedin.com/in/ulrikagarbrant"></a>
+                        <a class="fa twitter" href=""></a>
+                        <a class="fa facebook" href=""></a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <a href="" class="top-logo">
+            <img src="assets\images\garbrant.png" alt="logo">
+        </a>
+        <hr>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#home" onclick="home()">Hem</a>
+                    <a href="#about" onclick="about()">Om</a>
+                    <a href="#services" onclick="services()">Tjänster</a>
+                    <a href="#method" onclick="method()">Metod</a>
+                    <a href="#contact" onclick="contact()">Kontakt</a>
+                </li>
+            </ul>
+        </nav>
+        <hr id="scroll-to">
+    </header>
+
+    <!--Static header-->
+    <div id="static-bar" class="view2">
+        <section id="margin">
+            <img src="assets/images/logo.png" class="static-logo">
+            <ul>
+                <li>
+                    <div id="a">
+                        <a class="fa dribbble" href=""></a>
+                        <a class="fa behance" href=""></a>
+                        <a class="fa google" href=""></a>
+                        <a class="fa linkedin" href="https://se.linkedin.com/in/ulrikagarbrant"></a>
+                        <a class="fa twitter" href=""></a>
+                        <a class="fa facebook" href=""></a>
+                        <a class="fa mail" href=""></a>
+                        <a class="fa phone" href=""></a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#home" onclick="home()" id="toggle_home">Hem</a>
+                    <a href="#about" onclick="about()" id="toggle_about">Om</a>
+                    <a href="#services" onclick="services()" id="toggle_services">Tjänster</a>
+                    <a href="#method" onclick="method()" id="toggle_method">Metod</a>
+                    <a href="#contact" onclick="contact()" id="toggle_contact">Kontakt</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <br>
+	<main>
+        <div id="box">
+            <br id="trigger_home"><br>
+            <img src="assets\images\cik.png">
+            <h1>Hej, Ulrika här</h1>
+        </div>
+
+        <!--About-->
+        <span id="gt_about"></span>
+        <div id="header-lines">
+            <h1>Om</h1>
+        </div>
+        <table>
+            <tbody>
+                <tr>
+                    <article>
+                        <p>Garbrant Consulting är ett konsultföretag som erbjuder tjänster inom mat, dryck och hotell. Garbrant Consulting ägs och drivs av Ulrika Garbrant, civilekonom och projektledare med mångårig branscherfarenhet på strategisk och operativ nivå.</p>
+                    </article>
+                    <td valign="top">
+                        <p>Garbrant Consulting skriver regelbundet artiklar i den internationella branschtidningen Foodservice Europe &amp; Middle East. Garbrant Consulting rapporterar om den Nordiska restaurangmarknaden (Sverige, Norge, Danmark, Finland) med aktuell branschfakta, trender och intervjureportage.<b></a></p>
+                        <p>Garbrant Consulting vänder sig till företag och organisationer inom hotell-, restaurang- och måltids-branschen. Målgruppen består också av företag som på olika sätt har anknytning till mat och dryck, t ex fastighetsbolag, reseföretag, upplevelseföretag, friskvårdsföretag.<br>
+                            Våra tjänster inkluderar konceptutveckling, analyser, strategier, strukturkapital, utbildning mm. <br /><a href="#services"> Läs mer om Tjänster.</a></p>
+                    </td>
+                    <span id="trigger_about"></span>
+                    <td id="break"></td>
+                    <td valign="top">
+                        <p>Exempel på kundföretag: Scandic Hotels, Mat på Jobbet, Ballbreaker, Fritidsresor, Espresso House, Max Hamburger-restauranger, Medley, 8t8, Convini, Stöten i Sälen m fl.</p>
+                        <p>Vi tror på kombinationen passion, struktur och affärsmässighet för bästa resultat. Garbrant Consulting kan stärka uppdragsgivaren på en eller flera av dessa punkter. <br><a href="#method">Läs mer om Metod.</a></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--Services--> 
+        <span id="gt_services"></span>
+        <div id="header-lines">
+            <h1>Tjänster</h1>
+        </div>
+        <table>
+            <tbody>
+                <tr>
+                    <article>
+                        <p>Garbrant Consulting erbjuder tjänster inom en rad områden, som rådgivare, projektledare eller resurs i en arbetsgrupp.</p>
+                    </article>
+                    <td valign="top">
+                        <p><strong>Konceptutveckling</strong><br>Ett koncept är en helhet med många beståndsdelar. Garbrant Consulting kan bidra med kreativitet, marknadskännedom, trendkänsla, specialistkunskap och ett strukturerat arbetssätt för att utforma alla detaljer i konceptet. Garbrant Consulting kan även utvärdera befintliga koncept och utforma förbättringsförslag.</p>
+                        <p id="trigger_services"><strong>Analyser</strong><br>En analys kan vara ett avgränsat projekt, t ex en kvalitetsutvärdering, marknadskartläggning eller trendrapport. Ofta är analysen en del i ett större projekt, t ex en förstudie inför ett strategiarbete eller ett underlag för konceptutveckling.</p>
+                        <p><strong >Strategiarbete</strong><br>Vision, affärsidé, mål, vägval och strategier - Garbrant Consulting kan hjälpa er att skapa en strategisk plan för ert företag, affärsområde eller avdelning. Exempelvis är utvecklingen av en affärsplan en intern process som kan förstärkas och effektiviseras med Garbrant Consultings hjälp. Garbrant Consulting kan också fungera som bollplank och kritisk granskare av föreslagna strategier.</p>
+                    </td>
+                    <td id="break"></td>
+                    <td valign="top">
+                        <p id="b-mgr"><strong>Strukturkapital</strong><br>Ett företags strukturkapital är  dess samlade dokumentation av policies, koncept, arbetssätt  och rutiner. Syften med att skapa strukturkapital är kvalitetssäkring,  effektivisering av processer och daglig drift, konceptsäkring vid  expansion, uppföljning av prestationer mm. Ett väl utformat  strukturkapital ökar värdet på företaget. Ofta fungerar ett  strukturprojekt som en arbets- och utvecklingsprocess då det ibland  uppdagas att alla policies, konceptdetaljer och rutiner inte  är satta. Därför krävs en erfaren och kvalificerad projektledare för  att nå ett bra slutresultat. Exempel på slutprodukter:  Konceptbeskrivning, Driftsmanual, Franchisehandbok,  Utbildningsprogram.</p>
+                        <p><strong>Artiklar</strong><br>Garbrant Consulting skriver regelbundet  artiklar i den internationella branschtidningen Foodservice Europe &amp;  Middle East. Garbrant Consulting rapporterar om den Nordiska  restaurangmarknaden (Sverige, Norge, Danmark, Finland) med aktuell  branschfakta, trender och intervjureportage. Andra skrivuppdrag kan  diskuteras.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--Method--> 
+        <span id="gt_method"></span>
+        <div id="header-lines">
+            <h1>Metod</h1>
+        </div>
+        <table>
+            <tbody>
+                <tr>
+                    <article><p>Garbrant Consulting värdesätter ett nära och öppet samarbete med uppdragsgivaren.  Tillsammans åstadkommer vi det bästa resultatet.</p></article>
+                    <td valign="top" id="mtd">
+                        <p><strong>Arbetssätt<br></strong>En projektgrupp sätts samman bestående av Garbrant Consulting och en eller flera representanter från ert företag. Roller och ansvarsfördelning bestäms i uppstartfasen. Beroende på uppdragets art och vilka interna resurser som kan tillsättas, väljer ni som uppdragsgivare hur mycket ni deltar. Garbrant Consulting konsult kan anta rollen som projektledare eller producerande resurs i en arbetsgrupp som ni själva tillsatt.</p>
+                        <p id="trigger_method">Vi tror på kombinationen passion, struktur och affärsmässighet för bästa resultat. Garbrant Consulting kan stärka uppdragsgivaren på en eller flera av dessa punkter.</p>
+                        <p>Begreppet passion innefattar både kreativitet, kunskap, vilja och drivkraft. Den brukar vara en stark faktor hos entreprenören, som kanske i första hand behöver hjälp med struktur. I en större organisation finns ofta en högre grad av struktur och affärsmässighet men kanske ett behov av en utomståendes drivkraft, kunskap och kreativitet.  Ibland är uppdragsgivaren stark på alla tre punkter men saknar helt enkelt tid och interna resurser för ett önskat projekt.</p>
+                        <p><strong>Vad behöver ni hjälp med? </strong><br><a href="#contact">Kontakta oss</a></p>
+                    </td>
+                    <td id="break"></td>
+                    <td valign="top"><img alt="bubblor (passion, struktur, affärsmässighet)" src="assets/images/bubbles.jpg">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--Contact-->
+        <span id="gt_contact"></span>
+        <div id="header-lines">
+            <h1>Kontakt</h1>
+        </div>
+        <div>
+            <article><p>Välkommen att höra av dig.</p></article>
+            <p><strong>Har du frågor om Garbrant Consulting och våra tjänster?</strong></p>
+            <p>
+                <li>Vill du veta mer eller boka tid för ett möte?</li>
+                <li>Söker du samarbete?</li>
+                <li>Vill du diskutera en idé?</li>
+            </p>
+            <p ><strong>Ulrika Garbrant</strong><br id="trigger_contact">
+                Tel: <a href="tel:012-345 67 89"><span>012-345 67 89</span></a><br>
+                E-post: <a href="mailto:mail@example.com">ulrika@garbrantconsulting.se</a>
+            </p>
+            <span ><img alt="bild på person" src="assets/images/stand.png" id="bottom-image"></span>
+        </div>
+    </main>
+</body>
+</html>
